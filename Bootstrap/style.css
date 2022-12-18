@@ -1,0 +1,36 @@
+:root{
+    --color-red: #DC143C;
+}
+
+.carousel-item img{
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.chooseus .Idesign{
+    color: var(--color-red)
+}
+
+.chooseus .marqueegroup{
+    width: 50%;
+    margin: auto;
+}
+
+.chooseus .card{
+    background: linear-gradient(45deg, #000, #004562), url(./images/project-1.png);
+    background-blend-mode:multiply;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card .card-body img{
+    width: 25%;
+    height: 40%;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 1rem;
+}

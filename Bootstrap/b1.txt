@@ -1,0 +1,36 @@
+ <!-- 
+    common class in bootstrap
+    color => text-danger, text-success, text-info, text-dark
+    text-white, text-light, text-warning, text-muted, text-primary
+    text-secondary
+
+    background => 
+
+    text: fw-bold, h1 - h6, p, lead display-1 to display-6,
+    fs-1 - fs-6, fst-italic, m, m-auto, p, pe, ps, pt, pb, px, py
+    w-25, w-50, w-75, w-100
+
+    display => d-block, d-inline, d-none, d-flex, justify-content-between
+    
+    
+    <h1 class="text-white bg-success p-5 w-75 m-auto">Hello world</h1>
+    <p class="fst-italic d-none">this is a paragragh</p>
+
+   
+
+    -->
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between">
+        <h1 class="bg-primary">Children1</h1>
+        <h1 class="bg-warning">Children2</h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 bg-primary">children1</div>
+            <div class="col-12 col-sm-6 col-md-3 bg-warning">children2</div>
+            <div class="col-12 col-sm-6 col-md-3 bg-info">children3</div>
+            <div class="col-12 col-sm-6 col-md-3 bg-success">children4</div>
+        </div>
+
+    </div>
