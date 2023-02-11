@@ -1,309 +1,36 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-}
-
-:root{
- --greencolor : #00C6A7;
- --bluecolor: #00cdf5;
-}
-
-.navigation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.navigation ul a{
-    text-decoration: none;
-    color: #fff;
-    margin: 1rem;
-    font-weight: bold;
-
-}
-
-.banner{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.banner .textcontent{
-    flex: 1;
-}
-
-
-.banner .bannerimg{
-    flex: 1;
-}
-
-.banner .bannerimg img{
-    width: 100%;
-    height: 50vh;
-    object-fit: contain;
-   
-}
-
-.banner .textcontent .texthead{
-    font-size: 2rem;
-    color:#fff;
-    font-weight: lighter;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.banner .textcontent p{
-    font-size: 1rem;
-    color:#d3d3d3; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: small;
-}
-
-
-.banner .textcontent button{
-    background-color: var(--greencolor);
-    padding: 0.5rem;
-    color: #fff;
-    border-radius: 1rem;
-    border: none;
-    text-transform:uppercase;
-    margin-top: 0.3rem; 
-}
-
-header{
-    background: linear-gradient(57deg, #00C6A7 0%, #1E4D92 100%);
-    background-image: radial-gradient(ellipse farthest-side at 100% 100%,#1cafc6 50%,#012690 110%);
-    padding: 5rem;
-    margin-right: -15px;
-}
-.startup{
-    padding: 4rem 0;
-    background-color: #F8FAFF;
-    margin-right: -15px;
-    margin-top: -15px;
-}
-
-.startup h4{
-    text-align: center;
-    margin: 2rem ;
-    text-transform: light;
-    font-size: 1.5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.cards{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.cards div{
-  background-color: #fff;
-    padding: 3rem;
-    border-bottom: 2px solid var(--greencolor);
-}
-
-.cards div img{
-    background-color: #EDF8F7;
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    display: block;
-    margin:auto;
-    padding: 1rem;
-}
-
-.cards div p{
-    margin-top: 2rem;
-    cursor: pointer;
-}
-
-.software .top{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.software .top h6{
-    font-size: 1rem;
-    margin-bottom: 2rem;
-} 
-
-.software .top a{
-    color: var(--greencolor);
-    text-decoration: none;
-}
-
-.software .top a:hover{
-    text-decoration: underline;
-}
-
-.software{
-    padding: 3rem 1rem;
-}
-
-.role{
-    width: 100vw;
-    min-height: 90vh;
-   background-image: url(./images/bb.jpg);
-   color: #fff;
-   display: flex;
+header {
+   background-image: url(IMAGES/IMG2.jpg);
    background-size: cover;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   background-repeat: no-repeat;
-   background-position: center ;
+   height: 500px;
 }
-
-.role h4{
+.nav {
+    margin: 20px;
+    list-style-type: none;
+}
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+ }
+  
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
     text-align: center;
-    font-size: 2rem;     
-    padding: 0 5rem;
-    
+    margin: 10px;
+ }
+div .tryal h1 {
+ color: black;
+ text-decoration: underline;
+ font-family: 'Times New Roman', Times, serif;
 }
 
-.need{
-    text-align: center;
-    font-size: 2rem;
-    padding: 4rem;
-    color: #fff;
-    background-color: #252B33;
-    margin-right: -15px;
-}
-
-.need h6{
-    font-weight: 400;
-    font-size: 16px;
-    color: #F1F1F1;
-    line-height: 1.2;
-    font-family: initial;
-    letter-spacing: 0rem;
-}
-
-.need h4{
-    justify-content: center;
-    font-weight: 400;
-    font-size: 2.5rem;
-    color: #FFFFFF;
-    line-height: 1.4;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.need button{
-    background-color: var(--greencolor);
-    padding: 0.5rem;
-    color: #fff;
-    font-weight: 200;
-    border-radius: 1rem;
-    border: none;
-    text-transform:uppercase;
-}
-
-.space{
-    background-color: #FFFFFF;
-    padding: 2rem;
-    margin-right: -15px;
-}
-
-.started{
-    text-align: center;
-    font-size: 2rem;
-    padding: 6rem 4rem 1rem ;
-    color: #fff;
-    background-color: #F8FAFF;
-
-}
-
-.started  h6{
-    font-weight: 400;
-    font-size: 16px;
-    color: #AEB6CB;
-    line-height: 1.2;
-    font-family: initial;
-    letter-spacing: 0rem;
-}
-
-.started h4{
-    justify-content: center;
-    font-weight: 200;
-    font-size: 1.5rem;
-    color:#212529;
-    line-height: 1.4;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.started button{
-    background-color: var(--greencolor);
-    padding: 0.5rem;
-    color: #fff;
-    font-weight: 200;
-    border-radius: 1rem;
-    border: none;
-    text-transform:uppercase;
-}
-
-.started .foot{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: #AEB6CB;
-    font-size: 16px;
-    text-decoration: none;
-    font-family: initial;
-    margin-top: 2rem;
-}
-
-.footspace{
-    background-color: #FFFFFF;
-    padding: 2.5rem;
-    margin-right: -15px;
-}
-
-@media (max-width:576px) {
-    .banner{
-
-        flex-direction: column;
-    }
-    .textcontent{
-        margin: 2rem 1rem;
-    }
-
-    .cards{
-        flex-direction: column;
-    }
-
-    .cards div{
-        margin-bottom: 2rem;
-        width: 100%;
-        text-align: center;
-    }
-
-    .software .top{
-        flex-direction: column;
-        margin: 0 1rem;
-        text-align: center;
-    }
-
-    .software .top img{
-        width: 100%;
-        height: 10rem;
-        object-fit: contain;
-
-    }
-
-    .role .h4{
-        flex-direction: column;
-        text-align: center;
-        font-size: smaller;
-    }
-
-}
-
-
-    
